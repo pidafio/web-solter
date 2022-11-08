@@ -1,0 +1,91 @@
+
+
+   
+
+
+.Items__Menu{ 
+    position: absolute;
+        padding: 0;
+        padding-top: 1em;
+        margin: 0;
+        width: 25%;
+        height: 500px;
+        margin-left: -100%;
+        transition: all .5s;
+        background: linear-gradient( rgb(192, 239, 255),rgb(182, 196, 213),rgba(125, 138, 154, 0.726))
+        
+        
+    }
+    .Texto__Desplegable{
+        
+        display: block;
+        padding: 0.7em;
+        text-decoration: none;
+        color: rgb(16, 54, 95);
+        list-style: none;
+        text-shadow: -1px 0px 2px rgb(146, 146, 160);
+        font-size: 1.3em;
+        font-style: Raleway;
+    } 
+
+    .Items__Menu .Texto__Desplegable{
+        padding-left: 2em;
+    }
+
+    .Submenu__Productos{
+       
+        margin-left: 0;
+        background: rgba(135, 166, 205, 0.717);
+        padding-left: 27px;
+        height: 0;
+        overflow: hidden;
+        transition: all 0.3s;
+        
+    }
+    
+    .Mostrar{
+        margin-left: 0;
+        display: inline-block;
+        z-index: 2;
+       
+        
+    }
+
+
+    /* .Items__Menu,.Submenu__Productos{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .Items__Menu{
+        background: linear-gradient( rgb(192, 239, 255),rgb(182, 196, 213),rgba(125, 138, 154, 0.726));
+        width: 30%;
+        margin-left: -100%;
+        transition: all .5s;
+        
+    }
+    .Texto__Desplegable{
+        display: block;
+        padding: 20px;
+        padding-left: 2em;
+        text-decoration: none;
+        color: rgb(94, 90, 51);
+        text-shadow: -1px 0px 2px rgb(11, 11, 12);
+        font-size: 1.3em;
+        font-style: Raleway;
+    } 
+    .Submenu__Productos .Texto__Desplegable{
+        
+        background: rgba(159, 139, 146, 0.717);
+        padding-left:3em;
+        
+    }
+    .Submenu__Productos{
+        height: 0;
+        overflow: hidden;
+        transition: all 0.3s;
+    }
+
+    .Mostrar{
+        margin-left: 0;
+    } */

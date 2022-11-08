@@ -1,0 +1,64 @@
+body {
+   
+    width: 100%;
+    background-image: url(./img/imagenes/fondoSolter.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    
+}
+
+.Menu__Container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+	margin: 0 ;
+    height: 4.3em;
+    background: linear-gradient(rgb(106, 125, 148), rgb(192, 239, 255));
+    cursor: pointer;
+    
+}
+.Btn__Barra .Logo__Empresa .icon__Menu{
+    display:inline-block ;
+}
+.icon__Menu{
+    font-size: 2em;
+    color: rgb(168, 161, 161);
+    margin-left: 1.7em;
+    margin-top: 0.1em;
+    text-shadow: 2px 2px 3px black;
+   
+}
+
+
+.Logo__Solter{
+    width: 18em;
+    height: 5.8em;
+    margin-top: -0.6em;
+ 
+}
+.Btn__Barra{
+    display: flex;
+    margin-right: 5em;
+    
+}
+.Btn__icon{
+    color:rgb(168, 161, 161);
+    font-size: 2em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+   text-shadow: 2px 2px 3px black;
+}
+.Btn__Menu{
+    display:flex;
+    margin-left: 0.4em;
+}
+.Titulo__Menu{
+   
+    font-family:Ubuntu;
+    font-size:0.8em ;
+    
+}
+
+
+
