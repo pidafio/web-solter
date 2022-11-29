@@ -1,0 +1,14 @@
+.Menu__Container-producto{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+	margin: 0 ;
+    height: 4.3em;
+   
+    cursor: pointer;
+}
+
+#compra__producto{
+    background: rgba(163, 206, 222, 0.679);
+}

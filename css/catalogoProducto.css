@@ -17,8 +17,9 @@ main{
 
 .grilla__Procuto{
 
-/* margin: 15px 8px 15px 2em; */
-/* width:250px; */
+display: inline-block;
+ margin: 15px 8px 15px 2em; 
+ width:250px; 
 height: 450px;
 border: solid 1px black;
 background: rgb(254, 253, 251);
